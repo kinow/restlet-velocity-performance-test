@@ -1,0 +1,10 @@
+<html><body>
+<h1>Velocity Performance test</h1>
+<tbody>
+#set ($map = $input.getMap() )
+#foreach ($mapEntry in $map.entrySet())
+    <tr><td>$mapEntry.key</td><td>$mapEntry.value</td></tr>
+#end
+<tbody>
+</body>
+</html>
